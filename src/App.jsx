@@ -26,8 +26,7 @@ function App() {
   useEffect(()=>{
     storeData().then((result)=>setDataStore(result))
   },[])
-  //cek
-  console.log(dataStore);
+
 
   //cetak dataStore
   function SetStore(){
