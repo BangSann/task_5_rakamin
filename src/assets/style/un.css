@@ -1,0 +1,40 @@
+.container {
+    align-items: center;
+    box-shadow: black 4px 4px 10px 0px;
+    background-image: url('../images.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    width: 1200px;
+    height: 520px;
+    border-radius: 10px;
+}
+.main-un{
+    background:linear-gradient(to bottom , gray 0%, gray 60%, #ffff 60%, #ffff 100%);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 70px 0;
+}
+.message{
+    font-size: 20px;
+}
+.btUn{
+    color: #1e1e1e;
+    border: 2px #1E1E1E solid;
+    font-weight: bold;
+    width: 400px;
+}
+.contentUn{
+    text-align: center;
+}
+.btUn:hover{
+    color: #ffff;
+    background-color: #626262;
+    border: 2px #161616 solid;
+}
+
+
+
